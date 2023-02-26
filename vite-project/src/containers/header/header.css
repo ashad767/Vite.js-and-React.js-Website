@@ -1,0 +1,25 @@
+.matter_header-content {
+    display: flex;
+    padding-top: 9rem;
+    font-size: 7rem;
+    justify-content:center;
+    
+  }
+  .matter_header-text{
+    display: flex;
+    margin-top: 5rem;
+    justify-content:center;
+    font-family: var(--font-family);
+    font-size: 2rem;
+    font-weight: 8;
+
+  }
+  .button_format{
+    display: flex;
+    margin-top: 7rem;
+    justify-content:center;
+  }
+  .line{
+    margin-top: 10%;
+    border-color: white;
+  }

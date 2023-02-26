@@ -1,0 +1,43 @@
+.container{
+    padding-top: 5%;
+}
+.card{
+    background-color: rgb(255, 255, 255);
+    width: 600px;
+    height: 600px;
+    border: none;
+    border-radius: 15px;
+    padding: 10px;
+    position: relative;
+    margin: auto auto;
+
+}
+.profile_image{
+    padding-top: 10%;
+    display: flex;
+    justify-content: center;
+
+}
+.profile_information{
+    color: black;
+    text-align: center;
+    font-family: var(--font-family);
+}
+.name{
+    font-size: 30px;
+}
+.user_info{
+    padding-top: 80px;
+    font-size: 25px;
+    
+}
+
+.followers{
+    float:left;
+    padding-left: 5rem;
+}
+.posts{
+    float:right;
+    padding-right: 5rem;
+}
+

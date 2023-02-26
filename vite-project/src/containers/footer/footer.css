@@ -1,0 +1,11 @@
+
+.footer_contents{
+    display: flex;
+    justify-content: center;
+    font-family: var(--font-family);
+    gap: 20%;
+    margin-top: 8rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+
+}

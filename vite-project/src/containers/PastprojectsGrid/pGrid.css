@@ -1,0 +1,106 @@
+.grid-container {
+    padding-top: 3%;
+    display: grid;
+    grid-gap: 30px;
+    justify-items: stretch;
+    align-items: stretch;
+    grid-template-columns: 700px 250px;
+    grid-template-rows: 250px 250px 250px; 
+    grid-template-areas: 
+    "java C"
+    "django django"
+    "Unity Python";
+    justify-content: center;
+  }
+  .grid-item-1{
+    border: #372AD6;
+    grid-area: java;
+    text-align: center;
+    border-radius: 50px;
+  }
+  .grid-container img{
+    object-fit: cover;
+    width: 100%;
+    max-height: 100%;
+    height: 100%;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+  .grid-container p{
+    align-content: center;
+    font-family: var(--font-family);
+    cursor: pointer;
+  }
+
+  .grid-item-2{
+    border: #372AD6;
+    grid-area: C;
+    text-align: center;
+    border-radius: 50px;
+    border-radius: 50px;
+  }
+
+  .grid-item-3{
+    border: #372AD6;
+    grid-area: django;
+    text-align: center;
+    border-radius: 50px;
+  }
+
+  .grid-item-4{
+    border: #372AD6;
+    grid-area: Unity;
+    text-align: center;
+    border-radius: 50px;
+
+  }
+
+  .grid-item-5{
+    border-radius: 50px;
+    border: #372AD6;
+    grid-area: Python;
+    text-align: center;
+  }
+
+.pGrid-title{
+    display: flex;
+    font-size: 6rem;
+    margin-top: 6rem;
+    justify-content: center;
+}
+
+img {
+    -webkit-filter: brightness(100%);
+}
+
+img:hover {
+    -webkit-filter: brightness(60%);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+
+
+
+
+
+  
+
+  
+
